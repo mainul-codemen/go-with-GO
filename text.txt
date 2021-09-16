@@ -1,0 +1,5 @@
+Before we look at files, we need to understand Go’s io package. The io package con‐
+sists of a few functions, but mostly interfaces used in other packages. The two main
+interfaces are Reader and Writer . Reader s support reading via the Read method.
+Writer s support writing via the Write method. Many functions in Go take Reader s or
+Writer s as arguments.
