@@ -15,4 +15,5 @@ func main() {
 	for k, v := range score {
 		fmt.Println(k, v)
 	}
+
 }
